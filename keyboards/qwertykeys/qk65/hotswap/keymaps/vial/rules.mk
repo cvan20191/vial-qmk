@@ -1,0 +1,9 @@
+VIA_ENABLE = yes
+VIAL_ENABLE = yes
+VIAL_INSECURE = yes
+LTO_ENABLE = yes
+MOUSEKEY_ENABLE = no
+SRC += features/achordion.c
+COMBO_ENABLE = yes
+KEY_OVERRIDE_ENABLE = yes
+CFLAGS += -fcommon
